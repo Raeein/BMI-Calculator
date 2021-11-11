@@ -1,9 +1,7 @@
-//
-//  BMI.swift
-//  BMI Calculator
-//
-//  Created by Raeein Bagheri on 2021-11-10.
-//  Copyright © 2021 Angela Yu. All rights reserved.
-//
+import UIKit
 
-import Foundation
+struct BMI {
+    let value: Float
+    let advice: String
+    let color: UIColor
+}
